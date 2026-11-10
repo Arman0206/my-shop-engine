@@ -1,0 +1,128 @@
+ .header{
+    width:100%;
+    height:78px;
+    background:white;
+    border-radius:18px;
+    padding:0 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 8px 24px rgba(15,23,42,.08);
+    margin-bottom:30px;
+}
+
+.search-box{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    width:380px;
+    background:#f8fafc;
+    padding:10px 18px;
+    border-radius:14px;
+    border:1px solid #e5e7eb;
+    transition:.3s;
+}
+
+.search-box:focus-within{
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,.12);
+}
+
+.search-icon{
+    color:#6b7280;
+    font-size:18px;
+}
+
+.header-search{
+    width:100%;
+    border:none;
+    outline:none;
+    background:transparent;
+    font-size:15px;
+}
+
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:25px;
+}
+
+.notification{
+    position:relative;
+    cursor:pointer;
+}
+
+.header-icon{
+    font-size:24px;
+    color:#374151;
+    transition:.3s;
+}
+
+.header-icon:hover{
+    color:#2563eb;
+}
+
+.badge{
+    position:absolute;
+    top:-8px;
+    right:-8px;
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background:#ef4444;
+    color:white;
+    font-size:11px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:600;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    cursor:pointer;
+    position:relative;
+}
+
+.profile-icon{
+    font-size:42px;
+    color:#2563eb;
+}
+
+.profile-info h4{
+    margin:0;
+    font-size:15px;
+    color:#111827;
+}
+
+.profile-info span{
+    font-size:13px;
+    color:#6b7280;
+}
+
+.dropdown-panel{
+    position:absolute;
+    top:calc(100% + 14px);
+    right:0;
+    width:260px;
+    background:white;
+    border-radius:14px;
+    box-shadow:0 12px 30px rgba(15,23,42,.15);
+    padding:18px;
+    z-index:50;
+}
+
+.dropdown-panel h4{
+    margin:0 0 8px;
+    font-size:15px;
+    color:#111827;
+}
+
+.dropdown-empty{
+    margin:0;
+    font-size:13px;
+    color:#6b7280;
+    line-height:1.5;
+}
